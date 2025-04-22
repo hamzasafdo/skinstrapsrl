@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>articolo 220425</title>
+     <style>
+        body {
+          font-family: 'Georgia', serif;
+          background-color: #ffffff;
+          color: #000000;
+          margin: 40px;
+        }
+    
+        .sezione {
+          color: #999999;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: bold;
+          margin-bottom: 10px ;
+        }
+
+        h1 {
+          font-size: 28px;
+          font-weight: bold;
+          margin: 0 0 10px 0;
+        }
+    
+        .autore {
+          color: #0074c2;
+          font-style: italic;
+          font-size: 16px;
+          margin-top: 5px;
+        }
+    
+        .sottotitolo {
+          color: #666666;
+          font-size: 15px;
+          margin: 8px 0;
+        }
+        .link-approfondimento {
+            color: #0074c2;
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .link-approfondimento::before {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background-color: #00b0f0;
+            position: absolute;
+            left: 0;
+            top: 4px;
+            border-radius: 2px;
+        }
+
+      </style>
+    </head>
+    <body>
+    
+      <div class="sezione">Il caso</div>
+    <div>
+        <h1>
+            La maestra dell'alunno plusdotato:<br>
+            «Faceva danni, ero spiazzata. Poi ho iniziato ad ascoltarlo»
+          </h1>
+    </div>      
+    
+          <div class="autore">di Alice d’Este</div>
+    
+          <div class="sottotitolo">
+            L’insegnante di Montegrotto: «Sapeva già tutto, impossibile stimolarlo». In regione migliaia di casi
+          </div>
+    
+          <div class="link-approfondimento" >
+            <a href= "https://www.corriere.it/salute/figli-genitori/bambino/25_aprile_15/che-cosa-significa-essere-plusdotati-bambini-super-intelligenti-ma-con-problemi-a-scuola-e3072076-379f-4736-95b1-576fc36b2xlk.shtml"> 
+            Come si riconoscono i bambini plusdotati (e che cosa significa essere «gifted») </a>
+          </div>
+        </div>
+      </div>
+    
+    </body>
+</html>     
